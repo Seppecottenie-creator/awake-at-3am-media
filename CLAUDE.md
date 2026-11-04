@@ -12,11 +12,12 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
    Keep each file well under 100 MB (GitHub limit).
 6. Schedule on YouTube with the Metricool MCP (`createScheduledPost`):
    - Brand / blogId: `7816349`, timezone `Europe/Brussels`
-   - Default slot: next free weekday at 16:00 (best time per Metricool). Max one video per day; check `getScheduledPosts` first.
+   - Default slot: next free day at 16:00 (best time per Metricool). Max one video per day; check `getScheduledPosts` first.
    - `media`: the raw GitHub URL above (push first, then schedule)
    - `youtubeData`: type `short` (or `video` for long-form), privacy `public`, madeForKids `false`, category `SCIENCE_TECHNOLOGY`, 5–8 tags
    - Title: "What If …?" + 1–2 emoji, under 70 characters. Description: 1–2 hook sentences + `#whatif #science #shorts` + a topic hashtag.
-   - Show the user title, description and slot before scheduling.
+   - Show the user title, description and slot before scheduling — except when running the `/short` command, which schedules automatically.
+   - Default rhythm: one video per day, weekends included.
 
 ## Style
 - Language: always English. Broad international audience — no country-specific or personal references.
