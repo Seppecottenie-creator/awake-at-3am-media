@@ -35,6 +35,8 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
     - Air / water: `falling` (prone flail), `fall_idle` (upright, arms up), `fall_land`, `float`, `tread_water`
   - He reacts to what happens in the scene (cold → `shiver`, dark → `look_nervous`, falling → `fall_idle`/`falling`). Match the clip to the narration line. He has no face rig, so emotions must read from body and framing.
   - Feet on the ground (or clearly floating/falling on purpose), with a soft contact shadow. Grounded shots must not hover.
+  - Close-ups: frame his head centred or on a third with headroom; never crop his head at the frame edge (track a smoothed head position).
+  - Reactions (surprised/shocked): quick camera push-in plus `ollie.eyes(1.15)` for a few frames. Blinks run automatically.
   - Vary framing and camera per shot (close-up face, wide, over-the-shoulder, low angle). Never the same centered full-body pose twice in a row.
   - Keep him out of the caption zone: captions sit in the lower third, so frame him above it or move captions.
 
