@@ -1,18 +1,21 @@
 # What if you jumped through the Earth?
 
-Short, 9:16, 85 s. Video: `shorts/what_if_you_jumped_through_the_earth.mp4`
+Short, 9:16, 49.5 s (v2, with Ollie). Video: `shorts/what_if_you_jumped_through_the_earth_v2.mp4`
+(v1, 85 s with the old boy: `shorts/what_if_you_jumped_through_the_earth.mp4`, to be removed once the scheduled post points to v2.)
+
+Hook: Ollie's bedroom at night; the floor breaks open under him and he drops into the hole, question big on screen.
+Ending: Ollie shivering in his pyjamas at the North Pole (`shiver` clip).
 
 ## Script
 
-1. What if you dug a hole straight through the Earth and jumped in? Spoiler: the trip is shorter than most movies.
-2. First, the digging. The deepest hole humans ever drilled goes just over twelve kilometers down. That's about zero point two percent of the way to the center. Then the rock got too hot, and they gave up.
-3. So let's cheat. Magic tunnel, no air, heatproof walls. Good thing, because the inner core is about as hot as the surface of the Sun.
-4. Start at the North Pole, and jump. Gravity pulls you faster and faster, and the whole way down you feel weightless, like an astronaut.
-5. By the center, you're doing around eight kilometers per second. That's way faster than a rifle bullet.
-6. Right at the center, gravity pulls equally from every side. So it pulls you... nowhere. But you're moving so fast, you zoom straight through.
-7. Now gravity drags you back, slowing you down. You reach the other side just as you stop. Total trip: about thirty-eight minutes.
-8. Grab the edge! Otherwise you fall all the way back, and bounce between the poles forever, like a very confused yo-yo.
-9. And why the poles? Because the Earth spins. Start anywhere else, and you'd slam into the tunnel wall. So: North Pole in, South Pole out. Pack a jacket.
+1. What if your floor opened up, and you fell straight through the Earth? Spoiler: it's quicker than a movie.
+2. Our deepest hole ever is just over twelve kilometers. Zero point two percent of the way to the center. Then the rock got too hot.
+3. So, magic tunnel. No air, heatproof walls. Handy, because the inner core is about as hot as the Sun's surface.
+4. You fall faster and faster, weightless. By the center: eight kilometers per second. Way faster than a rifle bullet.
+5. There, gravity pulls equally from every side. But you're so fast, you zoom straight through.
+6. Then gravity slows you down, and you reach the other side just as you stop. About thirty-eight minutes.
+7. Grab the edge! Or you'll yo-yo between the poles forever.
+8. One catch: the Earth spins. Start anywhere but a pole, and you slam into the wall. So, Ollie: move to the North Pole. Pack a jacket.
 
 ## Fact check
 
