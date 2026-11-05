@@ -1,21 +1,22 @@
 # What if you jumped through the Earth?
 
-Short, 9:16, 49.5 s (v2, with Ollie). Video: `shorts/what_if_you_jumped_through_the_earth_v2.mp4`
-(v1, 85 s with the old boy: `shorts/what_if_you_jumped_through_the_earth.mp4`, to be removed once the scheduled post points to v2.)
+Short, 9:16, 51.1 s, 126 words (~148 wpm, normal voice speed). Video: `shorts/what_if_you_jumped_through_the_earth_v3.mp4`
+(v3 follows the pacing rule; v1 = 85 s with the old boy, v2 = 152 words at sped-up voice.)
 
 Hook: Ollie's bedroom at night; the floor breaks open under him and he drops into the hole, question big on screen.
+On screen only: "0.2 % of the way to the center" counter on the Kola beat.
 Ending: Ollie shivering in his pyjamas at the North Pole (`shiver` clip).
 
 ## Script
 
 1. What if your floor opened up, and you fell straight through the Earth? Spoiler: it's quicker than a movie.
-2. Our deepest hole ever is just over twelve kilometers. Zero point two percent of the way to the center. Then the rock got too hot.
-3. So, magic tunnel. No air, heatproof walls. Handy, because the inner core is about as hot as the Sun's surface.
-4. You fall faster and faster, weightless. By the center: eight kilometers per second. Way faster than a rifle bullet.
-5. There, gravity pulls equally from every side. But you're so fast, you zoom straight through.
-6. Then gravity slows you down, and you reach the other side just as you stop. About thirty-eight minutes.
+2. Our deepest hole ever? Twelve kilometers, then the rock got too hot.
+3. Magic tunnel: no air, heatproof walls. The inner core is as hot as the Sun's surface.
+4. You fall faster and faster. At the center: eight kilometers per second, way faster than a rifle bullet.
+5. There, gravity pulls equally every way, but you're so fast you zoom through.
+6. Gravity slows you, and you stop right at the other side. About thirty-eight minutes.
 7. Grab the edge! Or you'll yo-yo between the poles forever.
-8. One catch: the Earth spins. Start anywhere but a pole, and you slam into the wall. So, Ollie: move to the North Pole. Pack a jacket.
+8. One catch: Earth spins. Start anywhere but a pole and you slam into the wall. Ollie: move to the North Pole. Pack a jacket.
 
 ## Fact check
 
