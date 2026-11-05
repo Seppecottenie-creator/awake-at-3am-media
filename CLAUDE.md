@@ -25,9 +25,15 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 - Pacing: brisk. Short pauses, no slow build-up.
 - Build a reusable library of shots and props over time.
 - Look: strong 3D animation feel, realistic environments.
-- Recurring character: the rigged boy (red sweater) is an actor who experiences the scenario. He never narrates or talks, and only appears when the topic involves a human.
-  - Never show him in his bind pose (T-pose / A-pose). Every shot uses a real animation clip from the library in the pipeline (`assets/character/anims/`, Mixamo FBX: idle, shiver, look up, shocked, fall, float, run, sit, point, etc.).
-  - He reacts to what happens in the scene (cold → shivers, dark → looks around, falling → flails). Match the clip to the narration line.
+- Recurring character: **Ollie**, the kid who can't sleep (oversized red hoodie, blue plaid pajama pants, grey slippers). He is an actor who experiences the scenario. He never narrates or talks, and only appears when the topic involves a human.
+  - In the pipeline: `lib/ollie.js` (`loadOllie`, `ollie.update(t, timeline)`, `ollie.hold('mug' | 'flashlight')`), model `assets/character/ollie.glb` (Mixamo rig, PBR textures, ~1.39 m), props in `assets/props/`. Sources and converter scripts: `D:\mixamo` → `assets/character/src/`. The old boy (`lib/boy.js`) is retired.
+  - Never show him in his bind pose (T-pose / A-pose). Every shot uses a real animation clip from the library in the pipeline (`assets/character/anims/*.glb`, Mixamo):
+    - Standing: `idle`, `breathing_idle`, `look_around`, `look_around_alt`, `look_nervous`, `point`, `point_alt`, `wave`, `wave_alt`
+    - Reactions: `surprised`, `react`, `terrified`, `shiver` (procedural: arms hugged + fast tremble, for cold scenes)
+    - Low: `crouch_idle`, `crouch_to_stand`, `sit_idle`
+    - Moving: `walk`, `run`, `jump`, `jump_alt`, `jumping`, `jumping_alt`
+    - Air / water: `falling` (prone flail), `fall_idle` (upright, arms up), `fall_land`, `float`, `tread_water`
+  - He reacts to what happens in the scene (cold → `shiver`, dark → `look_nervous`, falling → `fall_idle`/`falling`). Match the clip to the narration line. He has no face rig, so emotions must read from body and framing.
   - Feet on the ground (or clearly floating/falling on purpose), with a soft contact shadow. Grounded shots must not hover.
   - Vary framing and camera per shot (close-up face, wide, over-the-shoulder, low angle). Never the same centered full-body pose twice in a row.
   - Keep him out of the caption zone: captions sit in the lower third, so frame him above it or move captions.
