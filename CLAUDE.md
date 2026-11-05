@@ -52,6 +52,9 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 - Give well-known topics an own twist rather than repeating what big channels already did (e.g. "Sun disappeared for 1 second" instead of "Sun disappeared").
 - Sports "what ifs" (football, basketball, tennis, F1, cycling, golf, baseball, American football, darts, Olympic sports, …) are welcome as physics or absurd scenarios: ball at light speed, goal/hoop 10× bigger, a match on the Moon, an F1 car with no air resistance, a 1,000 m high jump. Use generic 3D athletes, no real athletes' likeness, team/league logos, kits or broadcast footage.
 
+- History "what ifs" are welcome: alternate history (Roman Empire never fell) and time-travel scenarios (Ollie in ancient Rome for a day). Stick to well-documented facts for the real part, and say clearly when the rest is speculation ("historians think…", "probably"). Keep it light: no wars, genocides or recent politics as entertainment, and no real people's likeness from the last ~100 years.
+- Topic backlog lives in `topics.md`.
+
 ## Hook (first second)
 - Open on the most spectacular image of the video, with the question big on screen. No slow intro, no title card. The first spoken line is the question or a shocking fact.
 
