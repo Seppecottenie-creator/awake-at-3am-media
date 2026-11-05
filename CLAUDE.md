@@ -42,7 +42,7 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 ## Topics
 - The more absurd and extreme the premise, the better: exaggerated scale (100× bigger), tiny time spans (for 1 second, one zeptosecond), broken laws of physics (gravity off, light speed doubled), impossible worlds (cube Earth).
 - Give well-known topics an own twist rather than repeating what big channels already did (e.g. "Sun disappeared for 1 second" instead of "Sun disappeared").
-- Sports/football "what ifs" are fine as physics or absurd scenarios (ball at light speed, goal 10× bigger, match on the Moon). Use generic 3D players, no real players' likeness, club logos, kits or match footage.
+- Sports "what ifs" (football, basketball, tennis, F1, cycling, golf, baseball, American football, darts, Olympic sports, …) are welcome as physics or absurd scenarios: ball at light speed, goal/hoop 10× bigger, a match on the Moon, an F1 car with no air resistance, a 1,000 m high jump. Use generic 3D athletes, no real athletes' likeness, team/league logos, kits or broadcast footage.
 
 ## Hook (first second)
 - Open on the most spectacular image of the video, with the question big on screen. No slow intro, no title card. The first spoken line is the question or a shocking fact.
