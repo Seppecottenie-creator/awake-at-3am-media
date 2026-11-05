@@ -21,7 +21,8 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 
 ## Style
 - Language: always English. Broad international audience — no country-specific or personal references.
-- Narrator: warm male voice, slightly funny, with occasional small jokes.
+- Narrator: warm male voice, genuinely funny: dry jokes, absurd comparisons, a punchline every ~10 s, a self-aware aside now and then. Ollie's reactions (physical comedy) carry half the humour.
+- Bleeped swearing: at most 1–2 per short, only as a punchline. Fully cover the word with a classic bleep, show it as grawlix in the captions (`#$%!`), never in the first 7 seconds, never in title, description or thumbnail, and never slurs or sexual words. Mild words only (e.g. "holy sh*t", "what the f*ck").
 - Pacing: brisk. Short pauses, no slow build-up.
 - Build a reusable library of shots and props over time.
 - Look: strong 3D animation feel, realistic environments.

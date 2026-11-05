@@ -7,7 +7,7 @@ Make a new What If short fully automatically, following CLAUDE.md. Do not stop t
 
 Topic: $ARGUMENTS
 
-1. **Topic** — If no topic is given above, take the first unchecked topic in `topics.md` whose category differs from the previous short's. If the list is empty, invent an absurd, extreme "What if…?" question (see Topics in CLAUDE.md) that is not already in `shorts/` or `long/`. Tick the topic off (`[x]`) in `topics.md` in the same commit as the video.
+1. **Topic** — If no topic is given above, take the first unchecked topic in `topics.md`. If the list is empty, invent an absurd, extreme "What if…?" question (see Topics in CLAUDE.md) that is not already in `shorts/` or `long/`. Tick the topic off (`[x]`) in `topics.md` in the same commit as the video.
 2. **Research** — Verify every claim against reliable sources. Drop any claim you can't confirm. Save the script plus sources to `scripts/<snake_case_name>.md`.
 3. **Build & render** — Build the video with the pipeline in `D:\render-cache\awake-at-3am-pipeline`, reusing shots/props from the library and adding new ones. Render on the GPU. Open with the hook from CLAUDE.md. Output 1080x1920, 40–50 s, saved as `shorts/what_if_<topic>.mp4`, under 100 MB.
 4. **Self-check** — Watch-check the result: extract frames at a few timestamps and look at them, confirm audio and video lengths match, no black frames, subtitles readable, and run the Quality checks from CLAUDE.md. Fix and re-render if needed.
