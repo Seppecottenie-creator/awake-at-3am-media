@@ -22,7 +22,8 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 ## Style
 - Language: always English. Broad international audience — no country-specific or personal references.
 - Narrator: warm male voice, slightly funny, with occasional small jokes.
-- Pacing: a bit faster than voice speed 0.9 with ~1.25 s pauses (that felt slightly too slow); aim between that and a brisk ~65 s short.
+- Pacing: brisk. Short pauses, no slow build-up.
+- Build a reusable library of shots and props over time.
 - Look: strong 3D animation feel, realistic environments.
 - Recurring character: the rigged boy (red sweater) is an actor who experiences the scenario. He never narrates or talks, and only appears when the topic involves a human.
   - Never show him in his bind pose (T-pose / A-pose). Every shot uses a real animation clip from the library in the pipeline (`assets/character/anims/`, Mixamo FBX: idle, shiver, look up, shocked, fall, float, run, sit, point, etc.).
@@ -36,10 +37,22 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 - All on-screen text must be readable on a phone: minimum ~42 px at 1080 width, high contrast (dark box behind text on light backgrounds).
 - Loudness: normalize every video to -14 LUFS integrated, true peak ≤ -1 dBTP.
 - Every video has its script + sources in `scripts/`.
-- Build a reusable library of shots and props over time.
+- Every image/clip not made by us is logged with source + license in the script file.
+
+## Topics
+- The more absurd and extreme the premise, the better: exaggerated scale (100× bigger), tiny time spans (for 1 second, one zeptosecond), broken laws of physics (gravity off, light speed doubled), impossible worlds (cube Earth).
+- Give well-known topics an own twist rather than repeating what big channels already did (e.g. "Sun disappeared for 1 second" instead of "Sun disappeared").
+- Sports/football "what ifs" are fine as physics or absurd scenarios (ball at light speed, goal 10× bigger, match on the Moon). Use generic 3D players, no real players' likeness, club logos, kits or match footage.
+
+## Hook (first second)
+- Open on the most spectacular image of the video, with the question big on screen. No slow intro, no title card. The first spoken line is the question or a shocking fact.
+
+## External images
+- Allowed only with a clear free license: public domain (NASA, ESA, NOAA, USGS), CC0, Pexels/Pixabay/Unsplash license, or Wikimedia Commons CC BY / CC BY-SA with credit in the description.
+- Never: Google Images, Getty/AP/Reuters photos, sports broadcast footage, player photos without a free license, logos, movie/TV stills.
 
 ## Formats
-- Shorts: ~60–100 s, vertical.
+- Shorts: 40–50 s, vertical.
 - Long-form: one topic worked out in depth (e.g. day by day), 8–10 min, horizontal.
 
 ## Repo rules
