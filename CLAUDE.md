@@ -25,6 +25,17 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 - Pacing: a bit faster than voice speed 0.9 with ~1.25 s pauses (that felt slightly too slow); aim between that and a brisk ~65 s short.
 - Look: strong 3D animation feel, realistic environments.
 - Recurring character: the rigged boy (red sweater) is an actor who experiences the scenario. He never narrates or talks, and only appears when the topic involves a human.
+  - Never show him in his bind pose (T-pose / A-pose). Every shot uses a real animation clip from the library in the pipeline (`assets/character/anims/`, Mixamo FBX: idle, shiver, look up, shocked, fall, float, run, sit, point, etc.).
+  - He reacts to what happens in the scene (cold → shivers, dark → looks around, falling → flails). Match the clip to the narration line.
+  - Feet on the ground (or clearly floating/falling on purpose), with a soft contact shadow. Grounded shots must not hover.
+  - Vary framing and camera per shot (close-up face, wide, over-the-shoulder, low angle). Never the same centered full-body pose twice in a row.
+  - Keep him out of the caption zone: captions sit in the lower third, so frame him above it or move captions.
+
+## Quality checks (before publishing)
+- Extract frames and check for: bind poses, hovering feet, captions covering the character, unreadable small text.
+- All on-screen text must be readable on a phone: minimum ~42 px at 1080 width, high contrast (dark box behind text on light backgrounds).
+- Loudness: normalize every video to -14 LUFS integrated, true peak ≤ -1 dBTP.
+- Every video has its script + sources in `scripts/`.
 - Build a reusable library of shots and props over time.
 
 ## Formats
