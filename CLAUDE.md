@@ -23,7 +23,7 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 - Language: always English. Broad international audience — no country-specific or personal references.
 - Narrator: warm male voice, genuinely funny: dry jokes, absurd comparisons, a punchline every ~10 s, a self-aware aside now and then. Ollie's reactions (physical comedy) carry half the humour.
 - Bleeped swearing: at most 1–2 per short, only as a punchline. Fully cover the word with a classic bleep, show it as grawlix in the captions (`#$%!`), never in the first 7 seconds, never in title, description or thumbnail, and never slurs or sexual words. Mild words only (e.g. "holy sh*t", "what the f*ck").
-- Pacing: brisk. Short pauses, no slow build-up.
+- Pacing: brisk but followable. Narration max ~150 words per minute (≈ 120–130 words for a 50 s short). If the script is too long, cut content — never speed up the voice to make it fit. Leave a short beat (~0.4 s) after each punchline and big number.
 - Build a reusable library of shots and props over time.
 - Look: strong 3D animation feel, realistic environments.
 - Recurring character: **Ollie**, the kid who can't sleep (oversized red hoodie, blue plaid pajama pants, grey slippers). He is an actor who experiences the scenario. He never narrates or talks, and only appears when the topic involves a human.
@@ -64,7 +64,7 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 - Never: Google Images, Getty/AP/Reuters photos, sports broadcast footage, player photos without a free license, logos, movie/TV stills.
 
 ## Formats
-- Shorts: 40–50 s, vertical.
+- Shorts: 40–55 s, vertical.
 - Long-form: one topic worked out in depth (e.g. day by day), 8–10 min, horizontal.
 
 ## Repo rules
