@@ -26,7 +26,7 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 - Pacing: brisk but followable. Narration max ~150 words per minute (≈ 120–130 words for a 50 s short). If the script is too long, cut content — never speed up the voice to make it fit. Leave a short beat (~0.4 s) after each punchline and big number.
 - Build a reusable library of shots and props over time.
 - Look: strong 3D animation feel, realistic environments.
-- Recurring character: **Ollie**, the kid who can't sleep (oversized red hoodie, blue plaid pajama pants, grey slippers). He is an actor who experiences the scenario. He never narrates or talks, and only appears when the topic involves a human.
+- Recurring character: **Ollie**, the kid who can't sleep (oversized red hoodie, blue plaid pajama pants, grey slippers). He is an actor who experiences the scenario. He never narrates or talks. He is optional, not the default: use him only when a human perspective makes the scene funnier or clearer, roughly every other short at most. Many shorts have no humans at all.
   - In the pipeline: `lib/ollie.js` (`loadOllie`, `ollie.update(t, timeline)`, `ollie.hold('mug' | 'flashlight')`), model `assets/character/ollie.glb` (Mixamo rig, PBR textures, ~1.39 m), props in `assets/props/`. Sources and converter scripts: `D:\mixamo` → `assets/character/src/`. The old boy (`lib/boy.js`) is retired.
   - Never show him in his bind pose (T-pose / A-pose). Every shot uses a real animation clip from the library in the pipeline (`assets/character/anims/*.glb`, Mixamo):
     - Standing: `idle`, `breathing_idle`, `look_around`, `look_around_alt`, `look_nervous`, `point`, `point_alt`, `wave`, `wave_alt`
@@ -58,6 +58,7 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 - Sports "what ifs" (football, basketball, tennis, F1, cycling, golf, baseball, American football, darts, Olympic sports, …) are welcome as physics or absurd scenarios: ball at light speed, goal/hoop 10× bigger, a match on the Moon, an F1 car with no air resistance, a 1,000 m high jump. Use generic 3D athletes, no real athletes' likeness, team/league logos, kits or broadcast footage.
 
 - History "what ifs" are welcome: alternate history (Roman Empire never fell) and time-travel scenarios (Ollie in ancient Rome for a day). Stick to well-documented facts for the real part, and say clearly when the rest is speculation ("historians think…", "probably"). Keep it light: no wars, genocides or recent politics as entertainment, and no real people's likeness from the last ~100 years.
+- Not everything needs people: animals (an elephant the size of an ant, a world run by octopuses), objects and machines (a phone battery that never dies), nature and planets can carry a whole short on their own. Give the main animal/object some personality through animation and camera, but keep it realistic-stylised and never a copy of a known cartoon character.
 - Topic backlog lives in `topics.md`.
 
 ## Loop ending
