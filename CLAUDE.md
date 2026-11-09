@@ -45,6 +45,10 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 - Extract frames and check for: bind poses, hovering feet, captions covering the character, unreadable small text.
 - All on-screen text must be readable on a phone: minimum ~42 px at 1080 width, high contrast (dark box behind text on light backgrounds).
 - Loudness: normalize every video to -14 LUFS integrated, true peak ≤ -1 dBTP.
+- Audio mix — the voice must always be clearly on top:
+  - Music bed sits ~20 dB under the voice (around -34 LUFS when the voice is ~-14), with sidechain ducking (extra ~6 dB) whenever the narrator speaks.
+  - Sound effects never peak above the voice. While the narrator talks, SFX stay at least 6 dB under the voice; big hits (explosions, impacts) only in gaps between lines.
+  - Check: measure voice-only vs music+SFX-only stems; if music/SFX are within 15 dB of the voice during speech, lower them and re-mix.
 - Every video has its script + sources in `scripts/`.
 - Every image/clip not made by us is logged with source + license in the script file.
 
@@ -55,6 +59,12 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 
 - History "what ifs" are welcome: alternate history (Roman Empire never fell) and time-travel scenarios (Ollie in ancient Rome for a day). Stick to well-documented facts for the real part, and say clearly when the rest is speculation ("historians think…", "probably"). Keep it light: no wars, genocides or recent politics as entertainment, and no real people's likeness from the last ~100 years.
 - Topic backlog lives in `topics.md`.
+
+## Loop ending
+- Make the last line flow seamlessly into the first line/shot, so the Short loops naturally and people watch it twice (e.g. end on "…which is exactly why your floor just opened up" → back to the opening shot). No outro, no "subscribe" card, no fade to black.
+
+## Engagement
+- Every short gets a first comment with a short, fun question about the topic that invites an answer (e.g. "Would you jump in? 👇", "Which sport should we break next?"). Put it in Metricool's `firstCommentText`. Remind the user to pin it on YouTube (pinning can't be done through the API).
 
 ## Hook (first second)
 - Open on the most spectacular image of the video, with the question big on screen. No slow intro, no title card. The first spoken line is the question or a shocking fact.
