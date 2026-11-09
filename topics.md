@@ -5,7 +5,7 @@ The list is already mixed (science, history, sports, body, space, animals, objec
 
 - [x] What if gravity turned off for 5 seconds?  _(Science & physics)_
 - [x] What if you woke up in ancient Rome for one day?  _(History)_
-- [ ] What if a football was kicked at the speed of sound?  _(Sports)_
+- [x] What if a football was kicked at the speed of sound?  _(Sports)_
 - [ ] What if you drank 10 litres of water in one go?  _(Human body)_
 - [ ] What if ants were the size of dogs?  _(Animals)_
 - [ ] What if the Moon was as close as the ISS?  _(Space)_
