@@ -23,9 +23,15 @@ English "What if...?" 3D science explainer videos for YouTube (Shorts + long-for
 - Language: always English. Broad international audience — no country-specific or personal references.
 - Narrator: warm male voice, genuinely funny: dry jokes, absurd comparisons, a punchline every ~10 s, a self-aware aside now and then. Ollie's reactions (physical comedy) carry half the humour.
 - Bleeped swearing: at most 1–2 per short, only as a punchline. Fully cover the word with a classic bleep, show it as grawlix in the captions (`#$%!`), never in the first 7 seconds, never in title, description or thumbnail, and never slurs or sexual words. Mild words only (e.g. "holy sh*t", "what the f*ck").
-- Pacing: brisk but followable. Narration max ~150 words per minute (≈ 120–130 words for a 50 s short). If the script is too long, cut content — never speed up the voice to make it fit. Leave a short beat (~0.4 s) after each punchline and big number.
+- Pacing: calm and followable. Narration max ~135 words per minute (≈ 105–115 words for a 50 s short). If the script is too long, cut content — never speed up the voice to make it fit. Leave a short beat (~0.4 s) after each punchline and big number.
 - Build a reusable library of shots and props over time.
-- Look: strong 3D animation feel, realistic environments.
+- Look: photoreal-leaning, like a high-end archviz / documentary render, not a game. Characters (Ollie) may stay stylised, but the world around them must look real.
+  - Render in Blender (Cycles with OptiX on the RTX 3070, low samples + OptiX denoiser; EEVEE only for fast tests), not the WebGL/three.js renderer.
+  - Real assets only: Poly Haven (CC0) HDRIs, PBR textures and models as the base library; other models only with a clear free/commercial licence, logged in the script file. No primitive boxes, spheres or capsules standing in for buildings, trees, cars, people or balls.
+  - Lighting: HDRI + a sun/key light, real shadows, bounce light, atmospheric depth (haze/fog in big scenes), subtle depth of field and motion blur. Real-world scale for everything.
+  - Physical camera behaviour: 24–35 mm for wides, 50–85 mm for close-ups, smooth eased moves, slight handheld drift; no instant snaps.
+- Editing rhythm: 10–15 shots per short (≈3–5 s each), not a cut every 1–2 s. Let a shot breathe after a big moment.
+- On-screen info: max one info box or counter on screen at a time, and max ~5 per short. Captions show at most 4–5 words at once. The image should explain itself; overlays only for the key number.
 - Recurring character: **Ollie**, the kid who can't sleep (oversized red hoodie, blue plaid pajama pants, grey slippers). He is an actor who experiences the scenario. He never narrates or talks. He is optional, not the default: use him only when a human perspective makes the scene funnier or clearer, roughly every other short at most. Many shorts have no humans at all.
   - In the pipeline: `lib/ollie.js` (`loadOllie`, `ollie.update(t, timeline)`, `ollie.hold('mug' | 'flashlight')`), model `assets/character/ollie.glb` (Mixamo rig, PBR textures, ~1.39 m), props in `assets/props/`. Sources and converter scripts: `D:\mixamo` → `assets/character/src/`. The old boy (`lib/boy.js`) is retired.
   - Never show him in his bind pose (T-pose / A-pose). Every shot uses a real animation clip from the library in the pipeline (`assets/character/anims/*.glb`, Mixamo):
